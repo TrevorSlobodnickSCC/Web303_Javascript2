@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6</title>
+
+    <!-- css retrieved from https://bootswatch.com/lux/ - released under MIT license -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- my own css styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container" class="container-lg">
+        <header class="border-bottom border-primary">
+            <h1>Vi</h1>
+            <h2>The Piltover Enforcer</h2>
+        </header>
+        <img 
+            class="opens-modal"
+            src="images/vi_main.jpg" 
+            alt="Vi - A girl with pink hair wearing some light makeshift body armor, with huge mechanical gloves"
+            data-filename="vi_main.jpg"
+        />
+
+        <h2 class="not-first-h2 border-bottom border-primary">Basic Information</h2>
+        <h3>Who is Vi?</h3>
+        <p>
+            Vi is a champion in the game 
+            <a href="https://www.leagueoflegends.com/en-us/">League of Legends</a>.
+            She fills the fighter role and is mostly played in the jungle. She is
+            also one of the main characters in the new Netflix series '<a href="https://www.netflix.com/title/81435684">Arcane</a>'.
+        </p>
+        <h3>What is League?</h3>
+        <p>
+            League of Legends (LoL), commonly referred to as League, 
+            is a 2009 multiplayer online battle arena video game developed and 
+            published by Riot Games. In the game, two teams of five players battle
+            in player versus player combat, each team occupying and defending their
+            half of the map. Each of the ten players controls a character, known as
+            a "champion", with unique abilities and differing styles of play. During 
+            a match, champions become more powerful by collecting experience points, 
+            earning gold, and purchasing items to defeat the opposing team. In the 
+            game's main mode, Summoner's Rift, a team wins by pushing through to the 
+            enemy base and destroying their "Nexus", a large structure located within.
+            (<a href="https://en.wikipedia.org/wiki/League_of_Legends">Wikipedia Article</a>)
+        </p>
+
+        <h2 class="not-first-h2 border-bottom border-primary">Inside the Game</h2>
+
+        <h3>Abilities</h3>
+        <ul id="tabs1">
+            <li class="tab tab-open">
+                <a href="#ability0">Blast Shield</a>
+            </li>
+            <li class="tab">
+                <a href="#ability1">Vault Breaker</a>
+            </li>
+            <li class="tab">
+                <a href="#ability2">Denting Blows</a>
+            </li>
+            <li class="tab">
+                <a href="#ability3">Relentless Force</a>
+            </li>
+            <li class="tab">
+                <a href="#ability4">Cease and Desist</a>
+            </li>
+        </ul>
+        <div class="tab-content show-tab-content" id="ability0">
+            <img 
+                class="opens-modal"
+                src="images/abilities/vi_passive.png" 
+                alt=""
+                data-filename="vi_passive.png"
+            />
+            <div class="tab-text">
+                <h6>Blast Shield</h6>
+                <p>
+                    Vi charges a shield over time. The shield can be activated by 
+                    hitting an enemy with an ability.
+                </p>
+            </div>
+        </div>
+        <div class="tab-content" id="ability1">
+            <img 
+            class="opens-modal"
+            src="images/abilities/vi_q.png" 
+            alt=""
+            data-filename="vi_q.png"
+            />
+            <div class="tab-text">
+                <h6>Vault Breaker</h6>
+                <p>
+                    Vi charges her gauntlets and unleashes a vault shattering punch, carrying
+                    her forward. Enemies she hits are knocked back and receive a stack of 
+                    Denting Blows.
+                </p>
+            </div>
+        </div>
+        <div class="tab-content" id="ability2">
+            <img 
+            class="opens-modal"
+            src="images/abilities/vi_w.png" 
+            alt=""
+            data-filename="vi_w.png"
+            />
+            <div class="tab-text">
+                <h6>Denting Blows</h6>
+                <p>
+                    Vi's punches break her opponent's Armor, dealing bonus damage and granting
+                    her Attack Speed.
+                </p>
+            </div>
+        </div>
+        <div class="tab-content" id="ability3">
+            <img 
+            class="opens-modal"
+            src="images/abilities/vi_e.png" 
+            alt=""
+            data-filename="vi_e.png"
+            />
+            <div class="tab-text">
+                <h6>Relentless Force</h6>
+                <p>
+                    Vi's next attack blasts through her target, dealing damage to enemies behind it.
+                </p>
+            </div>
+        </div>
+        <div class="tab-content" id="ability4">
+            <img 
+            class="opens-modal"
+            src="images/abilities/vi_r.png" 
+            alt=""
+            data-filename="vi_r.png"
+            />
+            <div class="tab-text">
+                <h6>Cease and Desist</h6>
+                <p>
+                    Vi runs down an enemy, knocking aside anyone in the way. When she reaches her
+                    target she knocks it into the air, jumps after it, and slams it back into the
+                    ground.
+                </p>
+            </div>
+        </div>
+
+        <!-- 1.02 cents = ~1RP -->
+        <!-- Added inline display none so jquery would keep the display flex, rather than use display block on slideToggle -->
+        <h3>Skins</h3>
+        <ul id="accordion1" class="accordion">
+            <li>
+                <button class="accordion-label btn btn-primary one">Neon Strike Vi</button>
+                <div class="accordion-content" style="display: none;">
+                    <div class="skin-info-wrapper">
+                        <ul class="skin-info">
+                            <li>In-Game Cost: 975 RP</li>
+                            <li>Estimated CAD Cost: $9.95</li>
+                            <li>Artist: Unknown</li>
+                            <li>Release Date: December 19, 2012</li>
+                        </ul>
+                    </div>
+                    <img 
+                        class="opens-modal"
+                        src="images/skins/vi_neon_strike.jpg" 
+                        alt=""
+                        data-filename="vi_neon_strike.jpg"
+                    />
+                </div>
+            </li>
+            <li>
+                <button class="accordion-label btn btn-primary one">Officer Vi</button>
+                <div class="accordion-content" style="display: none;">
+                    <div class="skin-info-wrapper">
+                        <ul class="skin-info">
+                            <li>In-Game Cost: 975 RP</li>
+                            <li>Estimated CAD Cost: $9.95</li>
+                            <li>Artist: Bo Lu</li>
+                            <li>Release Date: October 29, 2013</li>
+                        </ul>
+                    </div>
+                    <img 
+                        class="opens-modal"
+                        src="images/skins/vi_officer.jpg" 
+                        alt=""
+                        data-filename="vi_officer.jpg"
+                    />
+                </div>
+            </li>
+            <li>
+                <button class="accordion-label btn btn-primary one">Debonair Vi</button>
+                <div class="accordion-content" style="display: none;">
+                    <div class="skin-info-wrapper">
+                        <ul class="skin-info">
+                            <li>In-Game Cost: 750 RP</li>
+                            <li>Estimated CAD Cost: $7.65</li>
+                            <li>Artist: Sperasoft Studio</li>
+                            <li>Release Date: August 5, 2014</li>
+                        </ul>
+                    </div>
+                    <img 
+                        class="opens-modal"
+                        src="images/skins/vi_debonair.jpg" 
+                        alt=""
+                        data-filename="vi_debonair.jpg"
+                    />
+                </div>
+            </li>
+            <li>
+                <button class="accordion-label btn btn-primary one">Demon Vi</button>
+                <div class="accordion-content" style="display: none;">
+                    <div class="skin-info-wrapper">
+                        <ul class="skin-info">
+                            <li>In-Game Cost: 1350 RP</li>
+                            <li>Estimated CAD Cost: $13.77</li>
+                            <li>Artist: Unknown</li>
+                            <li>Release Date: October 19, 2015</li>
+                        </ul>
+                    </div>
+                    <img 
+                        class="opens-modal"
+                        src="images/skins/vi_demon.jpg" 
+                        alt=""
+                        data-filename="vi_demon.jpg"
+                    />
+                </div>
+            </li>
+            <li>
+                <button class="accordion-label btn btn-primary one">Warring Kingdoms Vi</button>
+                <div class="accordion-content" style="display: none;">
+                    <div class="skin-info-wrapper">
+                        <ul class="skin-info">
+                            <li>In-Game Cost: 1350 RP</li>
+                            <li>Estimated CAD Cost: $13.77</li>
+                            <li>Artist: Alex 'alexplank' Flores</li>
+                            <li>Release Date: January 19, 2017</li>
+                        </ul>
+                    </div>
+                    <img 
+                        class="opens-modal"
+                        src="images/skins/vi_warring_kingdoms.jpg" 
+                        alt=""
+                        data-filename="vi_warring_kingdoms.jpg"
+                    />
+                </div>
+            </li>
+            <li>
+                <button class="accordion-label btn btn-primary one">Project Vi</button>
+                <div class="accordion-content" style="display: none;">
+                    <div class="skin-info-wrapper">
+                        <ul class="skin-info">
+                            <li>In-Game Cost: 1350 RP</li>
+                            <li>Estimated CAD Cost: $13.77</li>
+                            <li>Artist: Esben Lash Rasmussen</li>
+                            <li>Release Date: November 22, 2017</li>
+                        </ul>
+                    </div>
+                    <img 
+                        class="opens-modal"
+                        src="images/skins/vi_project.jpg" 
+                        alt=""
+                        data-filename="vi_project.jpg"
+                    />
+                </div>
+            </li>
+            <li>
+                <button class="accordion-label btn btn-primary one">Heartbreaker Vi</button>
+                <div class="accordion-content" style="display: none;">
+                    <div class="skin-info-wrapper">
+                        <ul class="skin-info">
+                            <li>In-Game Cost: 1350 RP</li>
+                            <li>Estimated CAD Cost: $13.77</li>
+                            <li>Artist: Sangsoo Jeong</li>
+                            <li>Release Date: February 11, 2019</li>
+                        </ul>
+                    </div>
+                    <img 
+                        class="opens-modal"
+                        src="images/skins/vi_heartbreaker.jpg" 
+                        alt=""
+                        data-filename="vi_heartbreaker.jpg"
+                    />
+                </div>
+            </li>
+            <li>
+                <button class="accordion-label btn btn-primary one">Psyops Vi</button>
+                <div class="accordion-content" style="display: none;">
+                    <div class="skin-info-wrapper">
+                        <ul class="skin-info">
+                            <li>In-Game Cost: 1350 RP</li>
+                            <li>Estimated CAD Cost: $13.77</li>
+                            <li>Artist: Sean 'Raiko' Tay, West Studio</li>
+                            <li>Release Date: September 3, 2020</li>
+                        </ul>
+                    </div>
+                    <img 
+                        class="opens-modal"
+                        src="images/skins/vi_psyops.jpg" 
+                        alt=""
+                        data-filename="vi_psyops.jpg"
+                    />
+                </div>
+            </li>
+        </ul>
+
+        <h2 class="not-first-h2 border-bottom border-primary">Outside the Game</h2>
+
+        <ul id="accordion2" class="accordion">
+            <li>
+                <button class="accordion-label btn btn-primary two">Biography</button>
+                <div class="accordion-content" style="display: none;">
+                    <p>
+                        Vi remembers little of her childhood in Zaun, and what she does remember,
+                        she wishes she didn’t. Running with the sump-snipe gangs, she quickly
+                        learned to use her wits, as well as her fists, to survive. Everyone
+                        who encountered Vi knew she could talk—or punch—her way out of trouble.
+                        More often than not, she chose the latter...
+                    </p>
+                    <div class="continue-reading-wrapper">
+                        <a class="btn btn-secondary" href="https://universe.leagueoflegends.com/en_US/story/champion/vi/">Continue Reading &#10140;</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <button class="accordion-label btn btn-primary two">Family</button>
+                <div class="accordion-content" style="display: none;">
+                    <div style="text-align: center;">
+                        <img 
+                            class="opens-modal"
+                            src="images/jinx.jpg" 
+                            alt=""
+                            data-filename="jinx.jpg"
+                        />
+                        <h6 style="margin-top: 0.5rem;">Jinx (Sister)</h6>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <button class="accordion-label btn btn-primary two">Short Story</button>
+                <div class="accordion-content" style="display: none;">
+                    <p>
+                        Vi stifled a yawn as she moved through the gilded chamber at the heart
+                        of Piltover’s Hall of Law. Dawn was less than an hour old, and the place
+                        was quiet. A few drunks were sleeping it off in the shaming cells, and
+                        she’d heard there were a couple of chem-augmented thugs in the deeper,
+                        more secure lock-ups. She’d ask around later, see if she could provide
+                        any insight as to what they were doing up in Piltover...
+                    </p>
+                    <div class="continue-reading-wrapper">
+                        <a class="btn btn-secondary" href="https://universe.leagueoflegends.com/en_US/story/vi-color-story/">Continue Reading &#10140;</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <button class="accordion-label btn btn-primary two">Art</button>
+                <div class="accordion-content" id="art" style="display: none;">
+                    <div id="art-link-wrapper">
+                        <a class="btn btn-primary" href="https://artbook.na.leagueoflegends.com/en_US/volume-one#chapter/champions/section/vi">Checkout Vi's Artbook</a>
+                    </div>
+                    <img 
+                        class="opens-modal"
+                        src="images/vi_concept.jpg" 
+                        alt=""
+                        data-filename="vi_concept.jpg"
+                    />
+                </div>
+            </li>
+            <li>
+                <button class="accordion-label btn btn-primary two">Music (Sessions)</button>
+                <div class="accordion-content" style="display: none;">
+                    <div style="text-align: center;">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/G8a45UZJGh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <div id="disclaimer" class="border border-primary">
+            <h6>DISCLAIMER</h6>
+            <p>
+                I am not endorsed by Riot Games and nor does it reflect their views, 
+                opinions, or those of anyone officially involved in League of Legends' 
+                production and/or management.
+            </p>
+        </div>
+        <footer class="border-top border-primary">
+            <p>Trevor Slobodnick - 2021</p>
+        </footer>
+    </div>
+    <!-- License Modal - Appears when you click on an image -->
+    <div class="modal" id="modal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>                
+                        <h5 class="modal-title">License</h5>
+                        <h6 class="modal-subtitle">example.png</h6>
+                    </div>
+                    <button type="button" class="btn-close closes-modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-image-container">
+                        <img class="modal-image" src="" alt="">
+                    </div>
+                    <p>
+                        This asset is copyrighted to 
+                        <a href="https://www.riotgames.com/en">Riot Games</a>.
+                    </p>
+                    <p>
+                        However, Riot Games allows use of their League of Legends intellectual property when
+                        meeting the conditions lined in their 
+                        <a href="https://www.riotgames.com/en/legal">Legal Jibber-Jabber</a> policy.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary closes-modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Adding Jquery -->
+    <script src="jquery.js"></script>
+    <!-- My own javascript code -->
+	<script src="script.js"></script>
+</body>
+</html>

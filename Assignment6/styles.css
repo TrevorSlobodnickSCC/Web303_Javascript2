@@ -1,0 +1,200 @@
+/* Reset some styles from bootstrap.css that I dont like */
+.btn:focus, .btn:active, .btn:active:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: currentColor;
+}
+
+.btn-primary:hover {
+    border-color: currentColor;
+}
+/*************************************************************************************************/
+
+header{
+    text-align: center;
+    padding: 1.5rem 0px;
+    margin-bottom: 1.5rem;
+}
+
+h3, .not-first-h2{
+    margin-top: 1.5rem;
+}
+
+.not-first-h2{
+    display: inline-block;
+}
+
+#container > h2:last-of-type{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+#container > img{
+    width: 100%;
+}
+
+img{
+    cursor: pointer;
+}
+
+footer{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+footer > p{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#disclaimer{
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+
+#disclaimer h6{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#disclaimer p{
+    margin-top: 0.5rem;
+    margin-bottom: 0px;
+}
+
+#tabs1, #accordion1, #accordion2{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#tabs1{
+    display: flex;
+}
+
+#tabs1 li{
+    display: flex;
+    border-left: solid thin black;
+    border-top: solid thin black;
+}
+
+#tabs1 li:last-of-type{
+    border-right: solid thin black;
+}
+
+#tabs1 li:hover{
+    background-color: #e4e4e4;
+}
+
+#tabs1 a{
+    text-decoration: none;
+    padding: 0.3em 0.7em;
+}
+
+.tab-open{
+    background-color: #f7f7f7;
+}
+
+.show-tab-content{
+    display: flex !important;
+}
+
+.tab-content{
+    display: none;
+    /* display: flex; */
+    align-items: flex-start;
+    padding: 0.4rem 0.6rem;
+    border: solid thin black;
+}
+
+.tab-text{
+    display: flex;
+    flex-direction: column;
+    padding: 0.1rem 0.8rem;
+}
+
+.tab-content h6{
+    margin-bottom: 0.3rem;
+}
+
+.tab-content p{
+    margin-bottom: 0px;
+}
+
+.accordion img{
+    width: 50%;
+}
+
+.accordion-label{
+    width: 100%;
+    text-align: left;
+    border-bottom: solid thin #ced4da;
+}
+
+#accordion1 .accordion-content, #art{
+    /* display: none; is now done inline because jquery was adding block instead of flex,
+    inline display property fixes this issue */
+    display: flex;
+    border-bottom: solid thin #ced4da;
+}
+
+#accordion1 .accordion-content:last-of-type{
+    border-bottom: none;
+}
+
+.skin-info-wrapper, #art-link-wrapper{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.skin-info li{
+    padding-top: 1rem;
+}
+
+#accordion2 .accordion-content{
+    border-left: solid thin black;
+    border-bottom: solid thin black;
+    border-right: solid thin black;
+}
+
+#accordion2 .accordion-content > p, #accordion2 .accordion-content > div{
+    margin-bottom: 0px;
+    padding: 0.5rem 1.2rem;
+}
+
+.continue-reading-wrapper{
+    text-align: center;
+    padding-top: 0px !important;
+}
+
+.modal-image{
+    max-width: 100%;
+}
+
+.modal-image-container{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 639px){
+    #disclaimer{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 639px){
+    .modal-dialog{
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
