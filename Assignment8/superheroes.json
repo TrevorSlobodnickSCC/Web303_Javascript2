@@ -1,0 +1,72 @@
+[
+    {
+        "name":"Batman", 
+        "publisher":"DC Comics", 
+        "alter_ego":"Bruce Wayne",
+        "first_appearance":"Detective Comics #27",
+        "superpowers":"none"
+    },
+    {
+        "name":"Superman", 
+        "publisher":"DC Comics", 
+        "alter_ego":"Clark Kent",
+        "first_appearance":"Action Comics #1",
+        "superpowers":"Flight, Super Strength, X-Ray Vision, Heat Vision"
+    },
+    {
+        "name":"Flash", 
+        "publisher":"DC Comics", 
+        "alter_ego":"Jay Garrick",
+        "first_appearance":"Flash Comics #1",
+        "superpowers":"Super Speed"
+    },
+    {
+        "name":"Green Lantern", 
+        "publisher":"DC Comics", 
+        "alter_ego":"Alan Scott",
+        "first_appearance":"All-American Comics #16",
+        "superpowers":"none"
+    },
+    {
+        "name":"Green Arrow", 
+        "publisher":"DC Comics", 
+        "alter_ego":"Oliver Queen",
+        "first_appearance":"More Fun Comics #73",
+        "superpowers":"none"
+    },
+    {
+        "name":"Spider Man", 
+        "publisher":"Marvel Comics", 
+        "alter_ego":"Peter Parker",
+        "first_appearance":"Amazing Fantasy #15",
+        "superpowers":"Shoot Webs, Stick To Any Surface, Spider-Sense"
+    },
+    {
+        "name":"Captain America", 
+        "publisher":"Marvel Comics", 
+        "alter_ego":"Steve Rogers",
+        "first_appearance":"Captain America Comics #1",
+        "superpowers":"none"
+    },
+    {
+        "name":"Iron Man", 
+        "publisher":"Marvel Comics", 
+        "alter_ego":"Tony Stark",
+        "first_appearance":"Tales of Suspense #39",
+        "superpowers":"none"
+    },
+    {
+        "name":"Thor", 
+        "publisher":"Marvel Comics", 
+        "alter_ego":"Thor Odinson",
+        "first_appearance":"Journey into Myster #83",
+        "superpowers":"Disease Immunity, Temperature Immunity"
+    },
+    {
+        "name":"Hulk", 
+        "publisher":"Marvel Comics", 
+        "alter_ego":"Bruce Banner",
+        "first_appearance":"The Incredible Hulk #1",
+        "superpowers":"Super Strength, Rage"
+    }
+]
