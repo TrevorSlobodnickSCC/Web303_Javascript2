@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "name":"Batman", 
+        "publisher":"DC Comics", 
+        "alter_ego":"Bruce Wayne",
+        "first_appearance":{
+            "comic": "Detective Comics #27",
+            "date": "1939-03-30"
+        },
+        "superpowers":"none"
+    },
+    {
+        "id": 2,
+        "name":"Superman", 
+        "publisher":"DC Comics", 
+        "alter_ego":"Clark Kent",
+        "first_appearance": {
+            "comic": "Action Comics #1",
+            "date": "1938-04-18"
+        },
+        "superpowers":"Flight, Super Strength, X-Ray Vision, Heat Vision"
+    },
+    {
+        "id": 3,
+        "name":"Flash", 
+        "publisher":"DC Comics", 
+        "alter_ego":"Jay Garrick",
+        "first_appearance": {
+            "comic": "Flash Comics #1",
+            "date": "1939-11-20"
+        },
+        "superpowers":"Super Speed"
+    },
+    {
+        "id": 4,
+        "name":"Green Lantern", 
+        "publisher":"DC Comics", 
+        "alter_ego":"Alan Scott",
+        "first_appearance": {
+            "comic": "All-American Comics #16",
+            "date": "1940-07-10"
+        },
+        "superpowers":"none"
+    },
+    {
+        "id": 5,
+        "name":"Green Arrow", 
+        "publisher":"DC Comics", 
+        "alter_ego":"Oliver Queen",
+        "first_appearance": {
+            "comic": "More Fun Comics #73",
+            "date": "1941-09-19"
+        },
+        "superpowers":"none"
+    },
+    {
+        "id": 6,
+        "name":"Spider Man", 
+        "publisher":"Marvel Comics", 
+        "alter_ego":"Peter Parker",
+        "first_appearance": {
+            "comic": "Amazing Fantasy #15",
+            "date": "1962-08-10"
+        },
+        "superpowers":"Shoot Webs, Stick To Any Surface, Spider-Sense"
+    },
+    {
+        "id": 7,
+        "name":"Captain America", 
+        "publisher":"Marvel Comics", 
+        "alter_ego":"Steve Rogers",
+        "first_appearance": {
+            "comic": "Captain America Comics #1",
+            "date": "1941-12-20"
+        },
+        "superpowers":"none"
+    },
+    {
+        "id": 8,
+        "name":"Iron Man", 
+        "publisher":"Marvel Comics", 
+        "alter_ego":"Tony Stark",
+        "first_appearance": {
+            "comic": "Tales of Suspense #39",
+            "date": "1963-01-01"
+        },
+        "superpowers":"none"
+    },
+    {
+        "id": 9,
+        "name":"Thor", 
+        "publisher":"Marvel Comics", 
+        "alter_ego":"Thor Odinson",
+        "first_appearance": {
+            "comic": "Journey into Myster #83",
+            "date": "1962-06-05"
+        },
+        "superpowers":"Disease Immunity, Temperature Immunity"
+    },
+    {
+        "id": 10,
+        "name":"Hulk", 
+        "publisher":"Marvel Comics", 
+        "alter_ego":"Bruce Banner",
+        "first_appearance": {
+            "comic": "The Incredible Hulk #1",
+            "date": "1962-03-01"
+        },
+        "superpowers":"Super Strength, Rage"
+    }
+]
