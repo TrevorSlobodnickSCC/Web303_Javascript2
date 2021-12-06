@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 10</title>
+</head>
+<body>
+    <form action="/register" method="post" style="display: flex; flex-direction: column; max-width: 350px; margin: 0px auto;">
+        <label for="username" style="margin-top: 1rem;">Username</label>
+        <input type="text" name="username" id="username">
+        <label for="password" style="margin-top: 1rem;">Password</label>
+        <input type="password" name="password" id="password">
+        <label for="confirm-password" style="margin-top: 1rem;">Confirm Password</label>
+        <input type="password" name="confirmPassword" id="confirm-password">
+        <div style="margin-top: 1rem;">
+            <label for="accept-tos">Accept Terms of Service</label>
+            <input type="checkbox" name="acceptTOS" id="accept-tos" value="0">
+        </div>
+        <select name="country" id="country-select" style="margin-top: 1rem;">
+            <option value="">Select Your Country</option>
+            <!-- Filled in with javascript -->
+        </select>
+        <input type="submit" name="submit" id="submit" value="submit" style="margin-top: 1rem; padding: 0.5rem 1rem; align-self: flex-end;">
+    </form>
+    <div id="message" style="max-width: 350px; margin: 0px auto;"></div>
+
+    <script src="countries.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
